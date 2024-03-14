@@ -14,8 +14,8 @@ Coded by www.creative-tim.com
 */
 
 // Material Kit 2 React pages
-import LoginCognito from "pages/Login";
+import Platform from "pages/Test_Platform";
 
-export default function SignInPage() {
-  return <LoginCognito />;
+export default function PlatformPage() {
+  return <Platform />;
 }
