@@ -30,7 +30,7 @@ import MKButton from "components/MKButton";
 
 function CenteredBlogCard({ image, title, description, action }) {
   return (
-    <Card>
+    <Card sx={{ minHeight: "500px" }}>
       <MKBox position="relative" borderRadius="lg" mx={2} mt={-3}>
         <MKBox
           component="img"

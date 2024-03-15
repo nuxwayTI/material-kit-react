@@ -48,13 +48,13 @@ function Information() {
           <Grid item xs={12} lg={6} sx={{ ml: "auto", mt: { xs: 3, lg: 0 } }}>
             <CenteredBlogCard
               image={InnovaLogo}
-              title="Inicia sesión"
+              title="Accede a nuestros servicios"
               description="Inicia sesión y desbloquea un mundo de posibilidades. Desde llamadas automáticas hasta monitoreo de tus centros de llamadas, nuestra plataforma ofrece una amplia gama de servicios diseñados para simplificar tu trabajo y potenciar tu productividad. ¡Únete ahora y descubre todo lo que nuestra nube tiene para ofrecerte!"
               action={{
                 type: "internal",
                 route: "/authentication",
                 color: "info",
-                label: "find out more",
+                label: "Inicia sesión",
               }}
             />
           </Grid>
