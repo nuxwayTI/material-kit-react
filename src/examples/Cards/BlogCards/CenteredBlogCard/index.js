@@ -31,30 +31,15 @@ import MKButton from "components/MKButton";
 function CenteredBlogCard({ image, title, description, action }) {
   return (
     <Card sx={{ minHeight: "500px" }}>
-      <MKBox position="relative" borderRadius="lg" mx={2} mt={-3}>
+      <MKBox position="relative" borderRadius="lg" mx={2} mt={-3} mb={5}>
         <MKBox
           component="img"
           src={image}
           alt={title}
           borderRadius="lg"
-          width="100%"
-          position="relative"
+          width="60%"
           zIndex={1}
-        />
-        <MKBox
-          borderRadius="lg"
-          shadow="md"
-          width="100%"
-          height="100%"
-          position="absolute"
-          left={0}
-          top={0}
-          sx={{
-            backgroundImage: `url(${image})`,
-            transform: "scale(0.94)",
-            filter: "blur(12px)",
-            backgroundSize: "cover",
-          }}
+          position={"relative"}
         />
       </MKBox>
       <MKBox p={3} mt={-1} textAlign="center">

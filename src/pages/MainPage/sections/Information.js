@@ -25,7 +25,7 @@ import MKBox from "components/MKBox";
 import CenteredBlogCard from "examples/Cards/BlogCards/CenteredBlogCard";
 
 import NuxLogo from "../../../assets/images/NuxLogos/logo-NUXWAY-(v2).png";
-import InnovaLogo from "../../../assets/images/NuxLogos/InnovaLogo.jpg";
+import InnovaLogo from "../../../assets/images/NuxLogos/IYD-LOGO-nuxway.png";
 
 function Information() {
   return (
